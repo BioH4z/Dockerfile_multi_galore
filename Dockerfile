@@ -1,4 +1,4 @@
-FROM biohaz/basic_ubuntu:V1
+FROM biohaz/basic_ubuntu:latest
 
 #MAINTAINER BioH4z <https://github.com/BioH4z>
 
