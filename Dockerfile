@@ -24,4 +24,5 @@ RUN curl -fsSL https://github.com/FelixKrueger/TrimGalore/archive/0.6.0.tar.gz -
 	&& tar xvzf trim_galore.tar.gz \
 	&& ln -sf /root/.local/bin/cutadapt /usr/local/bin \
 	&& ln -sf /root/.local/bin/multiqc /usr/local/bin \
+	&& ln -sf /home/TrimGalore-0.6.0/trim_galore /usr/local/bin \
 	&& rm trim_galore.tar.gz
